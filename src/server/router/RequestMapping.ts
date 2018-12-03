@@ -1,5 +1,5 @@
-import * as express from "express";
 import { ReflectionMetadata } from "../constraint/ReflectionMetadata";
+import * as express from "express";
 
 export declare type HttpMethod = Extract<keyof express.IRouter<any>, "get" | "post" | "index" | "put" | "patch" | "options" | "head">;
 

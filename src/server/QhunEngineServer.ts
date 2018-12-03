@@ -1,4 +1,4 @@
-import { Inject } from "../engine/di/Inject";
+import { Inject } from "./di/Inject";
 import { Router } from "./router/Router";
 import * as express from "express";
 import * as http from "http";
