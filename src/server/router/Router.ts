@@ -2,7 +2,7 @@ import { Injectable } from "../di/Injectable";
 import { Router as ExpressRouter } from "express";
 import { ControllerMetadataStructure } from "../controller/Controller";
 import { RequestMappingStructure, HttpMethod } from "./RequestMapping";
-import qhunServerControllers from "../controller";
+import qhubulaServerControllers from "../controller";
 import "reflect-metadata";
 import { Injector } from "../di/Injector";
 import * as express from "express";
@@ -38,7 +38,7 @@ export class Router {
         // get the injector for controller instantiation
         const injector = Injector.getInstance();
 
-        qhunServerControllers.forEach(controller => {
+        qhubulaServerControllers.forEach(controller => {
 
             // get prefix for controller
             const controllerMetadata: ControllerMetadataStructure = Reflect.getMetadata(ReflectionMetadata.Controller, controller);

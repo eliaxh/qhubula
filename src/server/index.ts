@@ -1,6 +1,6 @@
-import { QhunEngineServer } from "./QhunEngineServer";
+import { QhubulaServer } from "./QhubulaServer";
 
-const q = new QhunEngineServer();
+const q = new QhubulaServer();
 q.listen();
 
 /*
