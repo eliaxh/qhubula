@@ -1,0 +1,31 @@
+{
+  "name": "qhubula",
+  "version": "1.0.0",
+  "description": "qhubula backend server for nebula",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliaxh/qhubula.git"
+  },
+  "keywords": [
+    "nebula",
+    "qhun",
+    "backend",
+    "server"
+  ],
+  "author": "Frank Dürsch / Oliver Leve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliaxh/qhubula/issues"
+  },
+  "homepage": "https://github.com/eliaxh/qhubula#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.1"
+  }
+}
